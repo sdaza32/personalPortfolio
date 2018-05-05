@@ -785,6 +785,7 @@ body.show-menu #left-nav {
   font-weight: 300;
   line-height: 24px;
   padding-bottom: 20px;
+  text-align: justify;
 }
 
 .timeline-event-icon {
@@ -872,23 +873,23 @@ body.show-menu #left-nav {
    border-radius: 3px 0 0 3px;
 }
 
-.photoshop {
+.bootstrap {
   background: #1abc9c;
   width: 60%;
-  	-moz-animation: photoshop 2s ease;
-  	-webkit-animation: photoshop 2s ease;
+  	-moz-animation: bootstrap 2s ease;
+  	-webkit-animation: bootstrap 2s ease;
 }
-.illustrator {
+.javascript {
   background: #e74c3c;
   	width: 55%;
-  	-moz-animation: illustrator 2s ease;
-  	-webkit-animation: illustrator 2s ease;
+  	-moz-animation: javascript 2s ease;
+  	-webkit-animation: javascript 2s ease;
 }
-.wordpress {
+.sass {
   background: #34495e;
   	width: 50%;
-  	-moz-animation: wordpress 2s ease;
-  	-webkit-animation: wordpress 2s ease;
+  	-moz-animation: sass 2s ease;
+  	-webkit-animation: sass 2s ease;
 }
 .css {
   background: #3498db;
@@ -909,15 +910,15 @@ body.show-menu #left-nav {
   	-webkit-animation: jquery 2s ease;
 }
 
-@-moz-keyframes photoshop {
+@-moz-keyframes bootstrap {
   0%   { width: 0px;  }
   100% { width: 60%;  }
 }
-@-moz-keyframes illustrator {
+@-moz-keyframes javascript {
   0%   { width: 0px;  }
   100% { width: 55%;  }
 }
-@-moz-keyframes wordpress {
+@-moz-keyframes sass {
   0%   { width: 0px;  }
   100% { width: 50%;  }
 }
@@ -934,15 +935,15 @@ body.show-menu #left-nav {
   100% { width: 50%;  }
 }
 
-@-webkit-keyframes photoshop {
+@-webkit-keyframes bootstrap {
   0%   { width: 0px;  }
   100% { width: 60%;  }
 }
-@-webkit-keyframes illustrator {
+@-webkit-keyframes javascript {
   0%   { width: 0px;  }
   100% { width: 55%;  }
 }
-@-webkit-keyframes wordpress {
+@-webkit-keyframes sass {
   0%   { width: 0px;  }
   100% { width: 50%;  }
 }
